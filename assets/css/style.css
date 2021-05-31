@@ -75,7 +75,8 @@ header {
 }
 
 .nosotros-titulo,
-.servicios-titulo {
+.servicios-titulo,
+.FAQS-titulo {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -87,7 +88,8 @@ header {
 }
 
 .nosotros-parrafo,
-.servicios-parrafo {
+.servicios-parrafo,
+.FAQS-parrafo {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
