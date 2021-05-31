@@ -76,7 +76,8 @@ header {
 
 .nosotros-titulo,
 .servicios-titulo,
-.FAQS-titulo {
+.FAQS-titulo,
+.contacto-titulo {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -89,7 +90,8 @@ header {
 
 .nosotros-parrafo,
 .servicios-parrafo,
-.FAQS-parrafo {
+.FAQS-parrafo,
+.contacto-parrafo {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -97,6 +99,10 @@ header {
     line-height: 150%;
     text-align: center;
     color: #666666;
+    margin: 0 auto;
+    width: 60%;
+    
+    
 
 }
 
@@ -192,17 +198,98 @@ header {
     
 }
 
+/*FAQS*/
+
+.preguntas{
+    margin: 100px 0px;
+}
+
 .grid-layout{
     display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: 2fr;
+    height: 816px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    
     
 }
 
+.nav-faqs{
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+.nav-faqs a{
+    margin-right: 30px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    color: #CCCCCC;
+}
+.nav-faqs a:last-of-type{
+    margin-right: 0;
+}
+.selected{
+    text-decoration: underline;
+}
+
+.box:hover{
+    background-color: #62BF8A;
+    transition: 1s ease;
+}
+
 .box-1{
+    display: flex;
     grid-column-start: 1;
-    grid-column-end:2;
-    background-color: green
+    grid-column-end: 2;
+    background-color: #C4C4C4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-items: flex-end;
+   
+}
+.box-2{
+    display: flex;
+    align-items: flex-end;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #C4C4C4;
+    
+}
+.box-3{
+    display: flex;
+    align-items: flex-end;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #C4C4C4;
+    
+}
+.box-4{
+    display: flex;
+    align-items: flex-end;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #C4C4C4;
+    
+}
+
+.grid-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    width: 70%;
+    margin: 0 auto;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-bottom: 100px;
+    
 }
     
 
