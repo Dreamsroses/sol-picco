@@ -189,4 +189,20 @@ header {
     color: #FFFFFF;
     background-color: #62BF8A;
     padding: 16px 48px;
+    
 }
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 2fr;
+    
+}
+
+.box-1{
+    grid-column-start: 1;
+    grid-column-end:2;
+    background-color: green
+}
+    
+
