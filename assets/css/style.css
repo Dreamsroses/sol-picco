@@ -293,3 +293,35 @@ header {
 }
     
 
+/*Contacto*/
+
+input{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.imagen-contacto{
+    margin-left: 0;
+}
+
+.boton-contacto{
+    color:#ffffff;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 16px 48px;
+    width: 158px;
+    height: 53px;
+    left: 104px;
+    top: 627px;
+    background: #62BF8A;
+    border-radius: 8px;
+    margin-top: 90px;
+}
+
+.formulario{
+    margin-top: 200px;
+}
