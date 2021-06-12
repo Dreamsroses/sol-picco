@@ -1,11 +1,12 @@
 /* Navbar */
 .logo-nav {
     width: 10vw;
+    min-width: 168px;
 }
 
 /*  */
 .bg-corp {
-    background-color: #BDE1C7;
+    background-color: #A0DAB3;
 }
 
 .btn-wpp {
@@ -323,5 +324,58 @@ input{
 }
 
 .formulario{
-    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    background-color: #A0DAB3;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.footer p{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.titulo-menu-footer{
+    font-weight: 700 !important;
+    text-align: left !important;
+    
+}
+
+.nav-link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #231F20;
+    padding: 2px 4px;
+}
+
+.contacto-footer{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contacto-footer img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.icono-contacto{
+    margin: 10px;
+    width: 30px !important;
 }
