@@ -269,6 +269,11 @@ header {
 
 }
 
+.servicios-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /*FAQS*/
 
 .preguntas {
