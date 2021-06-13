@@ -2,6 +2,7 @@
 .logo-nav {
     width: 10vw;
     min-width: 168px;
+    padding: 2rem;
 }
 
 /* hx A0DAB3 - RGB 160 218 179 */
@@ -18,14 +19,18 @@
     display: inline-block;
 }
 
-#navbarNav {
+/* .contenedor-nav-link {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+} */
 
-.nav-ul {
+.nav-ul, .contenedor-nav-link {
     align-items: baseline;
+    justify-content: center;
+} 
+
+#navbarNav{
+    justify-content: space-around;
 }
 
 /* main media queries navbar */
