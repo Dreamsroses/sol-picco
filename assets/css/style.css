@@ -286,6 +286,13 @@ header {
 
 }
 
+@media (max-width: 768px){
+    .grid-layout{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+    }
+}
+
 .nav-faqs {
     text-align: center;
     margin: 50px auto;
@@ -310,9 +317,19 @@ header {
     text-decoration: underline;
 }
 
+.box-1:hover,
+.box-2:hover,
+.box-3:hover,.box-4:hover{
+    transition: ease-in-out;
+    background-image: url(../img/alquiler.jpg);
+    overflow: hidden;
+}
+
 .box:hover {
-    background-color: #62BF8A;
-    transition: 1s ease;
+    background: #62bf8a33;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+    
 }
 
 .box-1 {
@@ -351,6 +368,37 @@ header {
     grid-column-end: 4;
     background-color: #C4C4C4;
 
+}    
+
+
+@media (max-width:768px){
+    .box-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    }
+
+    .box-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    }
+
+    .box-3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    }
+
+    .box-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    }
 }
 
 .grid-text {
