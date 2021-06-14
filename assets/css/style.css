@@ -24,12 +24,13 @@
     flex-direction: column;
 } */
 
-.nav-ul, .contenedor-nav-link {
+.nav-ul,
+.contenedor-nav-link {
     align-items: baseline;
     justify-content: center;
-} 
+}
 
-#navbarNav{
+#navbarNav {
     justify-content: space-around;
 }
 
@@ -131,14 +132,16 @@ header {
 }
 
 
-.principios_content, .objetivos_content {
+.principios_content,
+.objetivos_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.principios-parrafo, .objetivo_parrafo{
+.principios-parrafo,
+.objetivo_parrafo {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -269,7 +272,7 @@ header {
 
 }
 
-.servicios-link{
+.servicios-link {
     text-decoration: none;
     color: #ffffff;
 }
@@ -458,4 +461,58 @@ input {
 .icono-contacto {
     margin: 10px;
     width: 30px !important;
+}
+
+
+/* Servicios HTML */
+
+.tab-servicios.active {
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 22px;
+    color: #231F20;
+    list-style: lower-roman;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2E2E36;
+}
+
+.tab-servicios {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 22px;
+    color: #CCCCCC;
+}
+
+.tab-servicios:hover {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 22px;
+    color: #A0DAB3;
+}
+
+
+.servicio-venta, .servicios-compra, .servicios-tasaciones{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 43px;
+    text-align: center;
+    color: #58585A;
+}
+
+.venta-parrafo, .compra-parrafo, .tasaciones-parrafo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #666666;
 }
