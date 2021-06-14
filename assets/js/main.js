@@ -1,0 +1,1 @@
+$('#someTab').tab('show')
