@@ -343,15 +343,21 @@ main-btn:focus{
 .box-2:hover,
 .box-3:hover,.box-4:hover{
     transition: ease-in-out;
-    background-image: url(../img/alquiler.jpg);
-    overflow: hidden;
+    
+    
+    
 }
 
 .box:hover {
-    background: #62bf8a33;
-    transition: 1s ease-in-out;
+    background: #62bf8a;
+    transition: 0.5s ease-in-out;
     overflow: hidden;
+ 
     
+}
+
+.box a:hover{
+    text-decoration: none;
 }
 
 .box-1 {
@@ -362,6 +368,10 @@ main-btn:focus{
     grid-row-start: 1;
     grid-row-end: 3;
     align-items: flex-end;
+    background-image: url(../img/venta.jpg);
+    opacity: 0.7;
+    background-size: cover;
+
 
 }
 
@@ -371,6 +381,9 @@ main-btn:focus{
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: #C4C4C4;
+    background-image: url(../img/compra.jpg);
+    opacity: 0.7;
+    background-size: cover;
 
 }
 
@@ -380,6 +393,9 @@ main-btn:focus{
     grid-column-start: 3;
     grid-column-end: 4;
     background-color: #C4C4C4;
+    background-image: url(../img/tasaciones.jpg);
+    opacity: 0.7;
+    background-size: cover;
 
 }
 
@@ -389,6 +405,9 @@ main-btn:focus{
     grid-column-start: 2;
     grid-column-end: 4;
     background-color: #C4C4C4;
+    background-image: url(../img/alquiler.jpg);
+    opacity: 0.7;
+    background-size: cover;
 
 }    
 
@@ -399,6 +418,7 @@ main-btn:focus{
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    
     }
 
     .box-2{
@@ -435,6 +455,8 @@ main-btn:focus{
     margin: 0 auto;
     font-feature-settings: 'pnum'on, 'lnum'on;
     margin-bottom: 100px;
+    text-shadow: 1px 1px 2px black;
+    
 
 }
 
