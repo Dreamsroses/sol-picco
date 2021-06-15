@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- cdn bootstrap 4.6 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font Raleway -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Font Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Hoja de estilo personal -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Sol Picco | Inmuebles</title>
+  </head>
+
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-corp">
+      <div class="container py-5 contenedor-nav-link">
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="logo-nav"
+            src="assets/img/logo.png"
+            alt="Logo Sol Picco"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-ul">
+            <li class="nav-item">
+              <a class="nav-link" href="..#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html"
+                >Servicios <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                target="_blank"
+                href="https://www.zonaprop.com.ar/q-sol-picco-inmuebles.html"
+                >Propiedades</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="..#contacto">Contacto</a>
+            </li>
+            <!-- Redes sociales -->
+            <div class="container-medios container-fluid">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    class="logo-tw"
+                    src="assets/img/twitter.svg"
+                    alt="twitter"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://www.facebook.com/solpiccoinmuebles"
+                >
+                  <img
+                    class="logo-fb"
+                    src="assets/img/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://instagram.com/solpiccoinmuebles?igshid=qivhy83b97l5"
+                >
+                  <img
+                    class="logo-ig"
+                    src="assets/img/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=541140892062&text=Hola%20Sol%20Picco%20Inmuebles%2C%20quiero%20solicitar%20informaci%C3%B3n.%20"
+                >
+                  <button type="button" class="btn btn-wpp">Whatsapp</button>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- FAQS -->
+    <section id="faqs" class="FAQS">
+      <h1 class="FAQS-titulo">FAQS</h1>
+      <div class="">
+        <p class="FAQS-parrafo">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui,
+          veritatis eum repellat reiciendis earum iste fugit, aut enim rem autem
+          repellendus et? Saepe rerum quasi magni iure earum totam ullam!
+        </p>
+      </div>
+    </section>
+
+    <!-- tabs FAQS -->
+
+    <section class="mb-5 pb-5">
+      <ul class="nav justify-content-center" id="pills-tab" role="tablist">
+        <li id="venta-tab" class="nav-item" role="presentation">
+          <a
+            class="nav-link tab-servicios active"
+            id="pills-venta-tab"
+            data-toggle="pill"
+            href="#pills-venta"
+            role="tab"
+            aria-controls="pills-venta"
+            aria-selected="true"
+            >Venta</a
+          >
+        </li>
+        <li id="compra-tab" class="nav-item" role="presentation">
+          <a
+            class="nav-link tab-servicios"
+            id="pills-compra-tab"
+            data-toggle="pill"
+            href="#pills-compra"
+            role="tab"
+            aria-controls="pills-compra"
+            aria-selected="false"
+            >Compra</a
+          >
+        </li>
+        <li id="tasaciones-tab" class="nav-item" role="presentation">
+          <a
+            class="nav-link tab-servicios"
+            id="pills-tasaciones-tab"
+            data-toggle="pill"
+            href="#pills-tasaciones"
+            role="tab"
+            aria-controls="pills-tasaciones"
+            aria-selected="false"
+            >Tasaciones</a
+          >
+        </li>
+        <li id="alquiler-tab" class="nav-item" role="presentation">
+          <a
+            class="nav-link tab-servicios"
+            id="pills-alquiler-tab"
+            data-toggle="pill"
+            href="#pills-alquiler"
+            role="tab"
+            aria-controls="pills-alquiler"
+            aria-selected="false"
+            >Alquileres</a
+          >
+        </li>
+      </ul>
+
+      <!-- Content FAQS -->
+      <div
+        class="tab-content container justify-content-center mt-5"
+        id="pills-tabContent"
+      >
+        <!-- venta -->
+        <div
+          class="tab-pane fade show active"
+          id="pills-venta"
+          role="tabpanel"
+          aria-labelledby="pills-venta-tab"
+        >
+          <p class="FAQS-venta">
+            ¿Qué documentación me piden para poner en venta una propiedad?
+          </p>
+          <p class="venta-parrafo">
+            En el momento en que realizamos la tasación, pediremos al
+            propietario la siguiente documentación:
+          </p>
+
+          <ul class="venta-parrafo">
+            <li>Copia de título de propiedad</li>
+            <li>Copia de plano</li>
+            <li>Una boleta de ARBA</li>
+          </ul>
+
+          <p class="FAQS-venta">
+            ¿Qué documentación se necesita para vender una propiedad?
+          </p>
+          <p class="venta-parrafo">
+            Una vez que la operación está avanzada, es decir, se negociaron las
+            condiciones de la compraventa con el comprador, el vendedor deberá
+            presentar la siguiente documentación al escribano interviniente en
+            la misma:
+          </p>
+          <ul class="venta-parrafo">
+            <li>Título de propiedad original.</li>
+            <li>
+              DNI y constancias de CUIT/CUIL de todos los titulares y cónyuges.
+            </li>
+            <li>
+              Boletas de impuestos, tasas y contribuciones que gravan el
+              inmueble.
+            </li>
+            <li>
+              Si el precio de la venta supera la suma de $1.500.000 necesitará
+              el COTI (Código de Transferencia de Inmueble), que se obtiene de
+              la página de AFIP.
+            </li>
+            <li>
+              Reglamento de copropiedad (En caso de que sea propiedad
+              horizontal).
+            </li>
+            <li>
+              Estado parcelario (Si el inmueble que se vende se encuentra en
+              Provincia de Buenos Aires).
+            </li>
+            <li>
+              El expediente sucesorio (En caso de que alguno de los titulares
+              del inmueble y/o sus cónyuges hayan fallecido, o si se recibe el
+              inmueble por herencia).
+            </li>
+          </ul>
+
+          <p class="FAQS-venta">
+            Cuales son los gastos para la parte vendedora?
+          </p>
+          <p class="venta-parrafo">
+            Si la operación se realiza en base a los usos y costumbres, el
+            vendedor abona todos los gastos relacionados con la verificación de
+            su título, el estado de dominio y deudas del mismo, liberación de
+            impuestos y el derecho de escritura, (ej: certificados del registro
+            de la propiedad inmueble, certificados administrativos, estudio de
+            títulos, impuesto a la transferencia de inmueble (ITI), sellos,
+            etc); y los honorarios de la inmobiliaria interviniente en la
+            operación. De todas maneras, debemos recordar que las partes pueden
+            convenir que uno solo de ellos asuma todos los gastos.
+          </p>
+
+          <p class="FAQS-venta">
+            Como vendedor puedo elegir al escribano interviniente?
+          </p>
+          <p class="venta-parrafo">
+            En general el comprador es el encargado de elegir el escribano que
+            va a intervenir en la firma de la escritura publica de compraventa.
+            Hay excepciones, por ejemplo si se trata de una primera venta o
+            edificio a estrenar, en ese caso se va a escriturar con el escribano
+            designado por la desarrolladora.
+          </p>
+
+          <p class="FAQS-venta">Puedo evitar pagar el ITI?</p>
+          <p class="venta-parrafo">
+            El impuesto a la transferencia de inmueble es el 1.5% del monto de
+            la propiedad. Podrán solicitar el certificado de NO retención
+            aquellas personas que vendan su única vivienda o terreno para
+            comprar o construir otra propiedad destinada a vivienda propia.
+          </p>
+        </div>
+
+        <!-- Compra    -->
+        <div
+          class="tab-pane fade"
+          id="pills-compra"
+          role="tabpanel"
+          aria-labelledby="pills-compra-tab"
+        >
+          <p class="FAQS-venta">
+            Como se asegura el comprador de que realmente el vendedor es el
+            dueño y que el inmueble no tiene gravámenes?
+          </p>
+          <p class="venta-parrafo">
+            Antes de firmar el boleto de compraventa o escritura traslativa de
+            dominio, Sol Picco Inmuebles, como inmobiliaria interviniente,
+            solicita al registro de la propiedad un informe de dominio del
+            inmueble y también informe de inhibición de los vendedores. De esta
+            manera, nos aseguramos que el dominio esté libre de gravámenes, que
+            los vendedores sean los titulares y que éstos no estén inhibidos.
+            Luego el escribano designado pedirá también los certificados para
+            corroborar dicha información.
+          </p>
+
+          <p class="FAQS-venta">
+            Cuales son los pasos a seguir para la compra de una propiedad?
+          </p>
+          <p class="venta-parrafo">
+            En primer lugar elegir la propiedad que mas se adapte a sus
+            necesidades. Una vez tomada la decisión de comprar la misma, se
+            deben seguir los siguientes pasos:
+          </p>
+
+          <ol class="venta-parrafo">
+            <li>
+              Oferta de compra: Refleja la voluntad de compra y funciona a modo
+              de reserva, la cual el vendedor puede aceptar o rechazar. Se firma
+              la misma especificando el monto que ud. está dispuesto a pagar por
+              la propiedad ofrecida. En caso de que el vendedor acepte la
+              oferta, el inmueble debe sacarse de la venta y deberá expresar el
+              conforme de venta por escrito, para seguir con los trámites
+              correspondientes a la compra; en caso de que la oferta sea
+              rechazada por el vendedor, se le devolverá al comprador el monto
+              de dinero entregado.
+            </li>
+            <br />
+            <li>
+              Firma del boleto de compraventa. El próximo paso es la firma del
+              boleto de compraventa. Se trata de un documento, que en general es
+              redactado por la inmobiliaria interviniente, en el que se refleja
+              el compromiso de ambas partes de llevar adelante la operación. Al
+              momento de la firma del boleto se suele dejar un porcentaje del
+              valor de la propiedad (30% o lo que convengan las partes) y el
+              saldo restante se deberá abonar al momento de la escritura. En
+              caso de que el comprador se arrepienta de realizar la operación,
+              pierde lo entregado y si se arrepiente el vendedor, éste deberá
+              devolver al comprador el doble del monto entregado. En este
+              documento queda establecido el precio convenido, el plazo de
+              escrituración, el escribano designado, la identificación del
+              inmueble, los datos de ambas partes y los informes de dominio e
+              inhibición. Desde la firma del boleto puede pasar 30/60 días hasta
+              la escrituración, depende de como sea el estudio de títulos.
+              También hay que tener en cuenta que no siempre se realiza boleto,
+              ya que muchas veces se lleva adelante la escrituración directa,
+              omitiendo este paso.
+            </li>
+            <br />
+            <li>
+              Escritura. Es el acto formal que establece la compraventa de la
+              propiedad donde la operación queda efectuada. Como comprador,
+              puede elegir el escribano que lleve adelante la operación, salvo
+              excepciones. Al momento de la firma de la escritura se abona el
+              saldo de precio, se salda todo lo adeudado por parte del vendedor,
+              se abonan los gastos y honorarios del escribano interviniente, se
+              entrega a cada parte copia simple de la escritura y se realiza la
+              entrega de las llaves de la propiedad.
+            </li>
+          </ol>
+
+          <p class="FAQS-venta">
+            Cuales son los gastos para la parte compradora?
+          </p>
+          <p class="venta-parrafo">
+            Si la operación se realiza en base a los usos y costumbres, el
+            comprador abona todos los gastos correspondientes a la obtención de
+            su título de propiedad (tasa de inscripción, legalización del
+            documento, sellos, etc), los honorarios profesionales del escribano;
+            y los honorarios de la inmobiliaria interviniente en la operación.
+            De todas maneras, debemos recordar que las partes pueden convenir
+            que uno solo de ellos asuma todos los gastos.
+          </p>
+
+          <p class="FAQS-venta">
+            Cuanto tiempo tengo que esperar para escriturar?  
+          </p>
+          <p class="venta-parrafo">
+            En general, desde que se firma el boleto de compraventa o la seña, son 30/60 días; todo depende de cada caso puntual y de la documentación que necesite el escribano interviniente.
+          </p>
+        </div>
+
+        <!-- Tasaciones -->
+        <div
+          class="tab-pane fade"
+          id="pills-tasaciones"
+          role="tabpanel"
+          aria-labelledby="pills-tasaciones-tab"
+        >
+        <p class="FAQS-venta">
+            ¿Qué documentación necesita la inmobiliaria para ofrecer una propiedad? 
+
+          <p class="venta-parrafo">
+            En el momento en que realizamos la tasación, ya sea para venta o alquiler, pediremos al propietario la siguiente documentación:
+          </p>
+
+          <ul class="venta-parrafo">
+              <li>Copia de título de propiedad.</li>
+              <li>Copia de plano.</li>
+              <li>Una boleta de ARBA</li>
+          </ul>
+
+          <p class="FAQS-venta">
+            Que herramientas utilizan para promocionar las propiedades?  
+
+          <p class="venta-parrafo">
+            Todas las propiedades que tenemos para ofrecer, tanto en venta como en alquiler, son publicadas en varios portales específicos de propiedades, en nuestra web y en todas nuestras redes sociales. También contamos con carteles para colocar en los frentes de las propiedades, obviamente siempre que el vendedor esté de acuerdo. 
+          </p>
+
+          <p class="FAQS-venta">
+            Quien se hace cargo de los gastos de publicidad? 
+
+          <p class="venta-parrafo">
+            Todos los gastos de publicidad, promoción y carteles son asumidos por Sol Picco Inmuebles.
+          </p>
+
+          <p class="FAQS-venta">
+            Que aspectos tienen en cuenta para brindar un valor de tasación?  
+
+          <p class="venta-parrafo">
+            Como primer paso hacemos una visita al inmueble a tasar y revisamos la documentación (escritura, plano, medidas, etc), luego hacemos un análisis profundo teniendo en cuenta múltiples variables tales como: la ubicación, el estado de la propiedad, la superficie, el entorno, la construcción, la funcionalidad, el tipo de propiedad, los usos potenciales, etc. 
+          </p>
+        </div>
+
+        <!-- Alquileres -->
+        <div
+          class="tab-pane fade"
+          id="pills-alquiler"
+          role="tabpanel"
+          aria-labelledby="pills-alquiler-tab"
+        >
+        <p class="FAQS-venta">
+            Cual es el plazo de los contratos? 
+
+          <p class="venta-parrafo">
+            El plazo mínimo legal para locaciones de vivienda es de tres años.
+          </p>
+
+          <p class="FAQS-venta">
+            Como se actualizan los contratos con la Nueva Ley de Alquileres? 
+
+          <p class="venta-parrafo">
+            En los contratos de locación de inmuebles destinados a uso habitacional, el precio del alquiler debe fijarse como valor único y por periodos mensuales, sobre el cual solo pueden realizarse ajustes anuales. 
+Los ajustes deben efectuarse utilizando un índice conformado por partes iguales por las variaciones mensuales del índice de precios al consumidor (IPC) y la remuneración imponible promedio de los trabajadores estables (RIPTE), que debe ser elaborado y publicado mensualmente por el BCRA.
+
+          </p>
+
+          <p class="FAQS-venta">
+            Como hago para rescindir un contrato de locación de vivienda? 
+
+          <ul class="venta-parrafo">
+              <li>Si la decisión de terminar la locación se toma cuando ya pasaron 6 meses de contrato, se debe notificar al locador con un mes de anticipación, por lo menos. </li>
+              <li>Si la decisión de terminar la locación se toma durante el primer año de contrato, se debe pagar como indemnización 1 mes y medio de alquiler al momento de desocupar el inmueble.</li>
+              <li>Si la decisión de terminar la locación se toma luego de pasado 1 año de contrato, se debe pagar como indemnización 1 mes de alquiler.</li>
+              <li>En los contratos de inmuebles con destino vivienda, si ya pasaron al menos 6 meses de contrato y la notificación al locador se realiza con una anticipación de 3 meses o más, no corresponde pagar ninguna indemnización. </li>
+          </ul>
+
+          <p class="FAQS-venta">
+            Que gastos tengo como inquilino para ingresar en un alquiler? 
+
+          <ul>
+              <li>Un mes de adelanto.</li>
+              <li>Un mes de depósito (del valor del alquiler actual).</li>
+              <li>Gastos de contrato (informes de dominio e inhibición, sellado, certificación de firmas, etc).</li>
+              <li>Honorarios de la inmobiliaria interviniente.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="">
+      <div class="footer">
+        <div>
+          <img
+            class="logo-nav"
+            src="assets/img/logo.png"
+            alt="Logo Sol Picco"
+          />
+          <p>Mat Nº 2836 - Morón</p>
+          <p>Pcia de Bs.As</p>
+        </div>
+        <div>
+          <p class="titulo-menu-footer">Servicios</p>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Tasaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Venta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Compra</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Alquileres</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Administración</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Asesoramiento Integral</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="titulo-menu-footer">Contacto</p>
+          <div class="contacto-footer">
+            <img src="assets/img/email.svg" alt="" />
+            <p>info@solpiccoinmuebles.com</p>
+          </div>
+          <div class="contacto-footer">
+            <img src="assets/img/telefono.svg" alt="" />
+            <p>(011) 15-4089-2062 - (011) 15-3154-7109</p>
+          </div>
+          <div class="contacto-footer">
+            <img src="assets/img/smartphone.svg" alt="" />
+            <p>(011) 5294-4379</p>
+          </div>
+        </div>
+
+        <div>
+          <p class="titulo-menu-footer">Redes Sociales</p>
+          <div class="contacto-footer">
+            <a
+              href="https://api.whatsapp.com/send?phone=541140892062&text=Hola%20Sol%20Picco%20Inmuebles%2C%20quiero%20solicitar%20informaci%C3%B3n.%20"
+            >
+              <img
+                class="icono-contacto"
+                src="assets/img/whatsapp.svg"
+                alt=""
+              />
+            </a>
+            <a href="https://www.facebook.com/solpiccoinmuebles">
+              <img
+                class="icono-contacto"
+                src="assets/img/facebook.svg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="contacto-footer">
+            <a href="">
+              <img class="icono-contacto" src="assets/img/twitter.svg" alt="" />
+            </a>
+            <a
+              href="https://instagram.com/solpiccoinmuebles?igshid=qivhy83b97l5"
+            >
+              <img
+                class="icono-contacto"
+                src="assets/img/instagram.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script jquery 3.5 -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- script popper 16.1 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- script bs 4.6 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- script js-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -140,7 +140,8 @@ main-btn:focus{
 /* section Nosotros */
 
 .nosotros,
-.servicios {
+.servicios,
+.FAQS {
     margin: 121px 0;
 }
 
@@ -585,3 +586,17 @@ input {
     line-height: 150%;
     color: #666666;
 }
+
+/*FAQS Html*/
+
+.FAQS-venta{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 43px;
+    text-align: light;
+    color: #58585A;
+    margin-top: 80px;
+}
+
