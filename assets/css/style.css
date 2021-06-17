@@ -15,6 +15,14 @@
     color: #ffffff;
 }
 
+.nav-item a{
+    font-size: 1rem;
+}
+
+.nav-item a img{
+    width: 70%;
+}
+
 .container-medios {
     display: inline-block;
 }
