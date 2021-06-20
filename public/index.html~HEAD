@@ -250,7 +250,7 @@
             <img src="assets/img/contacto.jpg" alt="Imagen Contacto" class="img-fluid">
         </div>
         <div class="col-md-6 my-5">
-            <form action="https://formsubmit.co/solpiccoinmobiliaria@gmail.com" method="POST" id="formilario" class="col-md">
+            <form action="https://formsubmit.co/solpiccoinmuebles@gmail.com" method="POST" id="formilario" class="col-md">
                 <fieldset>
                   <legend class="contacto-titulo">Contacto</legend>
                   <label for="nombre">Nombre</label>
@@ -285,22 +285,22 @@
                 <p class="titulo-menu-footer">Servicios</p>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="..#tasaciones-tab">Tasaciones</a>
+                      <a class="nav-link" href="./servicios.html">Tasaciones</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="servicios.html">Venta</a>
+                      <a class="nav-link" href="./servicios.html">Venta</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="servicios.html">Compra</a>
+                      <a class="nav-link" href="./servicios.html">Compra</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="servicios.html" tabindex="-1" aria-disabled="true">Alquileres</a>
+                      <a class="nav-link" href="./servicios.html" tabindex="-1" aria-disabled="true">Alquileres</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="servicios.html" tabindex="-1" aria-disabled="true">Administración</a>
+                        <a class="nav-link" href="./servicios.html" tabindex="-1" aria-disabled="true">Administración</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="servicios.html" tabindex="-1" aria-disabled="true">Asesoramiento Integral</a>
+                        <a class="nav-link" href="./servicios.html" tabindex="-1" aria-disabled="true">Asesoramiento Integral</a>
                       </li>
                   </ul>
             </div>
