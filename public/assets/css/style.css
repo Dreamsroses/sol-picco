@@ -15,22 +15,28 @@
     color: #ffffff;
 }
 
-.nav-item a{
+.nav-item a {
     font-size: 1rem;
 }
 
-.nav-item a img{
-    width: 70%;
-}
-
-.container-medios {
-    display: inline-block;
-}
-
-/* .contenedor-nav-link {
-    display: flex;
-    flex-direction: column;
+/* .logo-fb{
+    width: 20%;
 } */
+
+/* .container-medios {
+    display: inline-block;
+} */
+
+.contacto-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 35px 10px 10px 10px;
+}
+
+.contacto-nav a {
+    padding: 10px;
+}
 
 .nav-ul,
 .contenedor-nav-link {
@@ -48,6 +54,14 @@
 
     .container-medios li {
         padding: 1rem;
+    }
+
+    .contacto-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 35px 0 10px 0;
+        padding: 0;
     }
 
 }
@@ -93,7 +107,7 @@ header {
 }
 
 
-main-btn:focus{
+main-btn:focus {
     background-color: cadetblue;
 }
 
@@ -106,12 +120,12 @@ main-btn:focus{
     color: #FFFFFF;
 }
 
-.contactar{
+.contactar {
     text-decoration: none;
     color: #ffffff;
 }
 
-.contactar:hover{
+.contactar:hover {
     color: #C4C4C4;
 }
 
@@ -136,6 +150,7 @@ main-btn:focus{
 
     .main-btn {
         align-items: center;
+        padding: 5px 0;
     }
 
     .main__text {
@@ -170,6 +185,7 @@ main-btn:focus{
     font-size: 1em;
     line-height: 2rem;
     color: #666666;
+    margin: 25px;
 }
 
 .nosotros-titulo,
@@ -299,6 +315,23 @@ main-btn:focus{
     color: #ffffff;
 }
 
+
+/* main media queries header */
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .nosotros-principios {
+       margin-top: 40px;
+    }
+
+  
+.objetivo_parrafo {
+    margin-bottom: 45px;
+}
+
+}
+
+
 /*FAQS*/
 
 .preguntas {
@@ -316,10 +349,10 @@ main-btn:focus{
 
 }
 
-@media (max-width: 768px){
-    .grid-layout{
+@media (max-width: 768px) {
+    .grid-layout {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4,1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 }
 
@@ -349,22 +382,23 @@ main-btn:focus{
 
 .box-1:hover,
 .box-2:hover,
-.box-3:hover,.box-4:hover{
+.box-3:hover,
+.box-4:hover {
     transition: ease-in-out;
-    
-    
-    
+
+
+
 }
 
 .box:hover {
     background: #62bf8a;
     transition: 0.5s ease-in-out;
     overflow: hidden;
- 
-    
+
+
 }
 
-.box a:hover{
+.box a:hover {
     text-decoration: none;
 }
 
@@ -417,37 +451,37 @@ main-btn:focus{
     opacity: 0.7;
     background-size: cover;
 
-}    
+}
 
 
-@media (max-width:768px){
-    .box-1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    
+@media (max-width:768px) {
+    .box-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
     }
 
-    .box-2{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    .box-2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
     }
 
-    .box-3{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    .box-3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
     }
 
-    .box-4{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    .box-4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
     }
 }
 
@@ -464,7 +498,7 @@ main-btn:focus{
     font-feature-settings: 'pnum'on, 'lnum'on;
     margin-bottom: 100px;
     text-shadow: 1px 1px 2px black;
-    
+
 
 }
 
@@ -514,8 +548,8 @@ input {
 
 }
 
-@media (max-width:768px){
-    .footer{
+@media (max-width:768px) {
+    .footer {
         flex-direction: column;
         align-items: center;
     }
@@ -597,7 +631,10 @@ input {
 }
 
 
-.servicio-venta, .servicios-compra, .servicios-tasaciones, .servicios-alquiler{
+.servicio-venta,
+.servicios-compra,
+.servicios-tasaciones,
+.servicios-alquiler {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -607,7 +644,11 @@ input {
     color: #58585A;
 }
 
-.venta-parrafo, .compra-parrafo, .tasaciones-parrafo, .alquiler-parrafo, .asesoramiento-parrafo{
+.venta-parrafo,
+.compra-parrafo,
+.tasaciones-parrafo,
+.alquiler-parrafo,
+.asesoramiento-parrafo {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -616,7 +657,8 @@ input {
     color: #666666;
 }
 
-.asesoramiento-title, .alquiler-title{
+.asesoramiento-title,
+.alquiler-title {
     font-family: Roboto;
     font-weight: bold;
     font-size: 1.2rem;
@@ -626,7 +668,7 @@ input {
 
 /*FAQS Html*/
 
-.FAQS-venta{
+.FAQS-venta {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -636,4 +678,3 @@ input {
     color: #58585A;
     margin-top: 80px;
 }
-
